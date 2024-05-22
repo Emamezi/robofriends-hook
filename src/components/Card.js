@@ -2,12 +2,8 @@ import React from "react";
 
 function Card({ id, name, email }) {
   return (
-    <div className="pa2 ma3 grow dib">
-      <img
-        src={`https://robohash.org/${id}?set=set2?200x200`}
-        alt="robo img"
-        srcset="robot image"
-      />
+    <div className="tc bg-light-green dib br3 pa3 ma2 grow bw2 shadow-5 pointer">
+      <img src={`https://robohash.org/${id}?set=set2?200x200`} alt="robots" />
       <h2>{name}</h2>
       <p>{email}</p>
     </div>
